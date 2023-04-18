@@ -5,12 +5,19 @@
   "main": "gulpfile.js",
   "type": "module",
   "scripts": {
-    "build": "gulp build --build"
+    "build": "gulp build --build",
+    "serve": "gulp serve"
   },
   "author": "Smart",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync": "^2.29.1",
+    "del": "^7.0.0",
     "gulp": "^4.0.2",
-    "gulp-cli": "^2.3.0"
+    "gulp-cli": "^2.3.0",
+    "gulp-file-include": "^2.3.0",
+    "gulp-if": "^3.0.0",
+    "gulp-replace": "^1.1.4",
+    "gulp-version-number": "^0.2.4"
   }
 }
