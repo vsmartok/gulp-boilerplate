@@ -1,4 +1,14 @@
 {
+  "name": "gulp_bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "type": "module",
+  "scripts": {
+    "build": "gulp build --build"
+  },
+  "author": "Smart",
+  "license": "ISC",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-cli": "^2.3.0"
